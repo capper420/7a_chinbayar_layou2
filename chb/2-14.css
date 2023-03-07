@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  height: 100vh;
+  width: 100%;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  margin: 0;
+  padding: 0;
+  height: 94%;
+  width: 94%;
+  background: linear-gradient(to right, purple, darkgoldenrod);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.circle {
+  height: 2cm;
+  width: 2cm;
+  border-radius: 5cm;
+  background-color: red;
+}
+.bottum{
+  margin: 0;
+  padding: 0;
+  height: 94%;
+  width: 94%;
+  background: linear-gradient(to right, blue, darkgoldenrod);
+  display: flex;
+}
