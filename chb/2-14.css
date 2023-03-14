@@ -14,13 +14,20 @@
   margin: 0;
   padding: 0;
   height: 94%;
-  width: 94%;
+  width: 24%;
   background: linear-gradient(to right, purple, darkgoldenrod);
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+  
+  
 }
 .circle {
+  margin: 1;
+  padding: 1;
   height: 2cm;
   width: 2cm;
   border-radius: 5cm;
@@ -30,7 +37,81 @@
   margin: 0;
   padding: 0;
   height: 94%;
-  width: 94%;
+  width: 24%;
   background: linear-gradient(to right, blue, darkgoldenrod);
   display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.mid1{
+  margin: 0;
+  padding: 0;
+  height: 94%;
+  width: 24%;
+  background: linear-gradient(to right,red, darkgoldenrod);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.mid2
+{
+  margin: 0;
+  padding: 0;
+  height: 94%;
+  width: 24%;
+  background: linear-gradient(to right,green, darkgoldenrod);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.little{
+  margin: 0;
+  padding: 0;
+  height: 20%;
+  width: 90%;
+  background: linear-gradient(to right,brown
+  , darkgoldenrod);
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around
+  ;
+}
+.little1{
+  margin: 0;
+  padding: 0;
+  height: 20%;
+  width: 90%;
+  background: linear-gradient(to right,lime, darkgoldenrod);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
+  ;
+}
+.little2{
+  margin: 0;
+  padding: 0;
+  height: 20%;
+  width: 90%;
+  background: linear-gradient(to right,black, darkgoldenrod);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+  ;
+}
+.little3{
+  margin: 0;
+  padding: 0;
+  height: 20%;
+  width: 90%;
+  background: linear-gradient(to right,pink, darkgoldenrod);
+  display: flex;
+  justify-content: space-around;
+}
+.ball{
+  margin: 1;
+  padding: 1;
+  height: 2cm;
+  width: 2cm;
+  border-radius: 5cm;
+  background-color: red;
 }
